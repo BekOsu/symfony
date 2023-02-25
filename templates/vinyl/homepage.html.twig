@@ -4,4 +4,14 @@
 
 <div>
     Our schweet track list: TODO
+
+    Tracks:
+    <ul>
+        {% for track in tracks %}
+            <li>
+                {{ track.song }} --- {{ track.artist }}
+            </li>
+        {% endfor %}
+    </ul>
+
 </div>
